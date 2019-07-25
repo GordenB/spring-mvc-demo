@@ -19,6 +19,8 @@ public class HelloWorldController {
 	public String processForm(){
 		return "helloworld";
 	}
+	// new a controller method to read from data and
+	// add data to the model
 	@RequestMapping("/processFormVersionTwo")
 	public String letzShoutDude(HttpServletRequest request , Model model) {
 		
